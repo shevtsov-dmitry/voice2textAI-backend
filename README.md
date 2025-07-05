@@ -12,7 +12,7 @@ pip install --upgrade ctranslate2
 ```
 
 
-### Run app using
+### Run app from venv using command
 ```bash
-uvicorn server:app --host 0.0.0.0 --port 8000
+python3 server.py
 ```
