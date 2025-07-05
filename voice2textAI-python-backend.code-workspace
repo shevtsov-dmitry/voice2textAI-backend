@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../tmp/chatting-with-ai-locally/model"
+		},
+		{
+			"path": "../../tmp/chatting-with-ai-locally/bin"
+		}
+	],
+	"settings": {}
+}
