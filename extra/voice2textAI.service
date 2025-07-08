@@ -1,0 +1,16 @@
+[Unit]
+Description=Voice2TextAI Python Backend Service
+After=network.target
+
+[Service]
+Type=simple
+User=shd
+Group=shd
+WorkingDirectory=/home/shd/projects/voice2textAI-python-backend
+ExecStart=/bin/bash /home/shd/projects/voice2textAI-python-backend/extra/start.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
